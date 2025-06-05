@@ -1,10 +1,13 @@
 import ItemCard from '../components/ItemCard';
 import { useFavorites } from '../context/FavoritesContext';
+import img1 from '../assets/item1.jpg';
+import img2 from '../assets/item2.jpg';
+import img3 from '../assets/item3.jpg';
 
 const items = [
-  { id: 1, title: 'Item 1', image: 'https://via.placeholder.com/150' },
-  { id: 2, title: 'Item 2', image: 'https://via.placeholder.com/150' },
-  { id: 3, title: 'Item 3', image: 'https://via.placeholder.com/150' },
+  { id: 1, title: 'Item 1', image: img1 },
+  { id: 2, title: 'Item 2', image: img2 },
+  { id: 3, title: 'Item 3', image: img3 },
 ];
 
 const Home = () => {
